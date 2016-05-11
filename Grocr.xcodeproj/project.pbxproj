@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1709D6A91CCDBEDF00EDA55D /* GRProViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1709D6A81CCDBEDF00EDA55D /* GRProViewController.m */; };
+		1709D6AC1CCDBFBE00EDA55D /* GRAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1709D6AB1CCDBFBE00EDA55D /* GRAppearance.m */; };
+		174AB1B71CDBB7FC006C47E3 /* GRSettingsTableViewCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174AB1B61CDBB7FC006C47E3 /* GRSettingsTableViewCell1.xib */; };
+		174AB1BD1CDBBD7E006C47E3 /* GRSettings1TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 174AB1BC1CDBBD7E006C47E3 /* GRSettings1TableViewCell.m */; };
+		17AE217A1CCD76FF00E3B196 /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AE21791CCD76FF00E3B196 /* UIScrollView+EmptyDataSet.m */; };
+		17B9B14C1CD04D9A0020A5EF /* GRSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B9B14B1CD04D9A0020A5EF /* GRSettingsTableViewController.m */; };
+		17B9B14F1CD04DF80020A5EF /* GRSettings2TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B9B14E1CD04DF80020A5EF /* GRSettings2TableViewCell.m */; };
+		17C13CD31B9DDEB900521845 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C13CD21B9DDEB900521845 /* AudioToolbox.framework */; };
+		17C13CDB1B9DDF0500521845 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C13CD41B9DDF0500521845 /* CFNetwork.framework */; };
+		17C13CDC1B9DDF0500521845 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C13CD51B9DDF0500521845 /* CoreGraphics.framework */; };
+		17C13CDD1B9DDF0500521845 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C13CD61B9DDF0500521845 /* CoreLocation.framework */; };
+		17C13CDE1B9DDF0500521845 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C13CD71B9DDF0500521845 /* QuartzCore.framework */; };
+		17C13CDF1B9DDF0500521845 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C13CD81B9DDF0500521845 /* Security.framework */; };
+		17C13CE01B9DDF0500521845 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C13CD91B9DDF0500521845 /* StoreKit.framework */; };
+		17C13CE11B9DDF0500521845 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C13CDA1B9DDF0500521845 /* SystemConfiguration.framework */; };
+		17C13CE31B9DDF1700521845 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C13CE21B9DDF1700521845 /* libz.tbd */; };
+		17C13CE51B9DDF2300521845 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C13CE41B9DDF2300521845 /* libsqlite3.tbd */; };
+		17C13CE81B9DF5E800521845 /* GRActivityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C13CE71B9DF5E800521845 /* GRActivityTableViewController.m */; };
+		17C13CEB1B9DF79900521845 /* GRListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C13CEA1B9DF79900521845 /* GRListTableViewController.m */; };
+		17C13CEF1B9DF92700521845 /* GRActivityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C13CEE1B9DF92700521845 /* GRActivityTableViewCell.m */; };
+		17C8E7FE1B9B86630008A072 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C8E7FD1B9B86630008A072 /* main.m */; };
+		17C8E8011B9B86630008A072 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C8E8001B9B86630008A072 /* AppDelegate.m */; };
+		17C8E80A1B9B86630008A072 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C8E8081B9B86630008A072 /* Main.storyboard */; };
+		17C8E80C1B9B86630008A072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C8E80B1B9B86630008A072 /* Assets.xcassets */; };
+		17C8E80F1B9B86630008A072 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C8E80D1B9B86630008A072 /* LaunchScreen.storyboard */; };
+		17C8E81A1B9B86630008A072 /* GrocrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C8E8191B9B86630008A072 /* GrocrTests.m */; };
+		17C8E8251B9B86630008A072 /* GrocrUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C8E8241B9B86630008A072 /* GrocrUITests.m */; };
+		17F266471CCFE1FB00D2F049 /* GRUserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17F266461CCFE1FB00D2F049 /* GRUserTableViewCell.xib */; };
+		17F2664A1CD0001900D2F049 /* GRUserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F266491CD0001900D2F049 /* GRUserTableViewCell.m */; };
+		17F2664E1CD0028C00D2F049 /* GRUserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F2664D1CD0028C00D2F049 /* GRUserTableViewController.m */; };
+		17F266501CD01EA400D2F049 /* GRSettingsTableViewCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17F2664F1CD01EA400D2F049 /* GRSettingsTableViewCell2.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17C8E8161B9B86630008A072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17C8E7F11B9B86630008A072 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17C8E7F81B9B86630008A072;
+			remoteInfo = Grocr;
+		};
+		17C8E8211B9B86630008A072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17C8E7F11B9B86630008A072 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17C8E7F81B9B86630008A072;
+			remoteInfo = Grocr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1709D6A71CCDBEDF00EDA55D /* GRProViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRProViewController.h; sourceTree = "<group>"; };
+		1709D6A81CCDBEDF00EDA55D /* GRProViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRProViewController.m; sourceTree = "<group>"; };
+		1709D6AA1CCDBFBE00EDA55D /* GRAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRAppearance.h; sourceTree = "<group>"; };
+		1709D6AB1CCDBFBE00EDA55D /* GRAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRAppearance.m; sourceTree = "<group>"; };
+		174AB1B61CDBB7FC006C47E3 /* GRSettingsTableViewCell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GRSettingsTableViewCell1.xib; sourceTree = "<group>"; };
+		174AB1BB1CDBBD7E006C47E3 /* GRSettings1TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRSettings1TableViewCell.h; path = ../GRSettings1TableViewCell.h; sourceTree = "<group>"; };
+		174AB1BC1CDBBD7E006C47E3 /* GRSettings1TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRSettings1TableViewCell.m; path = ../GRSettings1TableViewCell.m; sourceTree = "<group>"; };
+		17AE21781CCD76FF00E3B196 /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		17AE21791CCD76FF00E3B196 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		17B9B14A1CD04D9A0020A5EF /* GRSettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRSettingsTableViewController.h; sourceTree = "<group>"; };
+		17B9B14B1CD04D9A0020A5EF /* GRSettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRSettingsTableViewController.m; sourceTree = "<group>"; };
+		17B9B14D1CD04DF80020A5EF /* GRSettings2TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRSettings2TableViewCell.h; sourceTree = "<group>"; };
+		17B9B14E1CD04DF80020A5EF /* GRSettings2TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRSettings2TableViewCell.m; sourceTree = "<group>"; };
+		17C13CD21B9DDEB900521845 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		17C13CD41B9DDF0500521845 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		17C13CD51B9DDF0500521845 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		17C13CD61B9DDF0500521845 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		17C13CD71B9DDF0500521845 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		17C13CD81B9DDF0500521845 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		17C13CD91B9DDF0500521845 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		17C13CDA1B9DDF0500521845 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		17C13CE21B9DDF1700521845 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		17C13CE41B9DDF2300521845 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		17C13CE61B9DF5E800521845 /* GRActivityTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRActivityTableViewController.h; sourceTree = "<group>"; };
+		17C13CE71B9DF5E800521845 /* GRActivityTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRActivityTableViewController.m; sourceTree = "<group>"; };
+		17C13CE91B9DF79900521845 /* GRListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRListTableViewController.h; sourceTree = "<group>"; };
+		17C13CEA1B9DF79900521845 /* GRListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRListTableViewController.m; sourceTree = "<group>"; };
+		17C13CED1B9DF92700521845 /* GRActivityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRActivityTableViewCell.h; sourceTree = "<group>"; };
+		17C13CEE1B9DF92700521845 /* GRActivityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRActivityTableViewCell.m; sourceTree = "<group>"; };
+		17C8E7F91B9B86630008A072 /* Grocr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grocr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C8E7FD1B9B86630008A072 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17C8E7FF1B9B86630008A072 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17C8E8001B9B86630008A072 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17C8E8091B9B86630008A072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17C8E80B1B9B86630008A072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17C8E80E1B9B86630008A072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17C8E8101B9B86630008A072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17C8E8151B9B86630008A072 /* GrocrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrocrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C8E8191B9B86630008A072 /* GrocrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrocrTests.m; sourceTree = "<group>"; };
+		17C8E81B1B9B86630008A072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17C8E8201B9B86630008A072 /* GrocrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrocrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C8E8241B9B86630008A072 /* GrocrUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrocrUITests.m; sourceTree = "<group>"; };
+		17C8E8261B9B86630008A072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17F266461CCFE1FB00D2F049 /* GRUserTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GRUserTableViewCell.xib; sourceTree = "<group>"; };
+		17F266481CD0001900D2F049 /* GRUserTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRUserTableViewCell.h; sourceTree = "<group>"; };
+		17F266491CD0001900D2F049 /* GRUserTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRUserTableViewCell.m; sourceTree = "<group>"; };
+		17F2664C1CD0028C00D2F049 /* GRUserTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRUserTableViewController.h; sourceTree = "<group>"; };
+		17F2664D1CD0028C00D2F049 /* GRUserTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRUserTableViewController.m; sourceTree = "<group>"; };
+		17F2664F1CD01EA400D2F049 /* GRSettingsTableViewCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GRSettingsTableViewCell2.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17C8E7F61B9B86630008A072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C13CE51B9DDF2300521845 /* libsqlite3.tbd in Frameworks */,
+				17C13CE31B9DDF1700521845 /* libz.tbd in Frameworks */,
+				17C13CDB1B9DDF0500521845 /* CFNetwork.framework in Frameworks */,
+				17C13CDC1B9DDF0500521845 /* CoreGraphics.framework in Frameworks */,
+				17C13CDD1B9DDF0500521845 /* CoreLocation.framework in Frameworks */,
+				17C13CDE1B9DDF0500521845 /* QuartzCore.framework in Frameworks */,
+				17C13CDF1B9DDF0500521845 /* Security.framework in Frameworks */,
+				17C13CE01B9DDF0500521845 /* StoreKit.framework in Frameworks */,
+				17C13CE11B9DDF0500521845 /* SystemConfiguration.framework in Frameworks */,
+				17C13CD31B9DDEB900521845 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C8E8121B9B86630008A072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C8E81D1B9B86630008A072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1709D6A61CCDBEC100EDA55D /* Tab 3 */ = {
+			isa = PBXGroup;
+			children = (
+				17B9B1501CD086F20020A5EF /* Settings View */,
+				17F2664B1CD001F200D2F049 /* User View */,
+				1709D6AD1CCE8C5A00EDA55D /* Plus View */,
+			);
+			name = "Tab 3";
+			sourceTree = "<group>";
+		};
+		1709D6AD1CCE8C5A00EDA55D /* Plus View */ = {
+			isa = PBXGroup;
+			children = (
+				1709D6A71CCDBEDF00EDA55D /* GRProViewController.h */,
+				1709D6A81CCDBEDF00EDA55D /* GRProViewController.m */,
+			);
+			name = "Plus View";
+			sourceTree = "<group>";
+		};
+		1709D6AE1CCF1AB400EDA55D /* Grocr Kit */ = {
+			isa = PBXGroup;
+			children = (
+				1709D6AA1CCDBFBE00EDA55D /* GRAppearance.h */,
+				1709D6AB1CCDBFBE00EDA55D /* GRAppearance.m */,
+			);
+			name = "Grocr Kit";
+			sourceTree = "<group>";
+		};
+		174AB1BE1CDC0489006C47E3 /* First Cell */ = {
+			isa = PBXGroup;
+			children = (
+				174AB1B61CDBB7FC006C47E3 /* GRSettingsTableViewCell1.xib */,
+				174AB1BB1CDBBD7E006C47E3 /* GRSettings1TableViewCell.h */,
+				174AB1BC1CDBBD7E006C47E3 /* GRSettings1TableViewCell.m */,
+			);
+			name = "First Cell";
+			sourceTree = "<group>";
+		};
+		17AE217B1CCD770500E3B196 /* EmptyDataSet */ = {
+			isa = PBXGroup;
+			children = (
+				17AE21781CCD76FF00E3B196 /* UIScrollView+EmptyDataSet.h */,
+				17AE21791CCD76FF00E3B196 /* UIScrollView+EmptyDataSet.m */,
+			);
+			name = EmptyDataSet;
+			sourceTree = "<group>";
+		};
+		17B9B1501CD086F20020A5EF /* Settings View */ = {
+			isa = PBXGroup;
+			children = (
+				17B9B14A1CD04D9A0020A5EF /* GRSettingsTableViewController.h */,
+				17B9B14B1CD04D9A0020A5EF /* GRSettingsTableViewController.m */,
+				174AB1BE1CDC0489006C47E3 /* First Cell */,
+				17B9B1511CD087130020A5EF /* Second Cell */,
+			);
+			name = "Settings View";
+			sourceTree = "<group>";
+		};
+		17B9B1511CD087130020A5EF /* Second Cell */ = {
+			isa = PBXGroup;
+			children = (
+				17F2664F1CD01EA400D2F049 /* GRSettingsTableViewCell2.xib */,
+				17B9B14D1CD04DF80020A5EF /* GRSettings2TableViewCell.h */,
+				17B9B14E1CD04DF80020A5EF /* GRSettings2TableViewCell.m */,
+			);
+			name = "Second Cell";
+			sourceTree = "<group>";
+		};
+		17B9B1521CD087250020A5EF /* Home View */ = {
+			isa = PBXGroup;
+			children = (
+				17C13CE91B9DF79900521845 /* GRListTableViewController.h */,
+				17C13CEA1B9DF79900521845 /* GRListTableViewController.m */,
+			);
+			name = "Home View";
+			sourceTree = "<group>";
+		};
+		17C13CC31B9DDE8F00521845 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17C13CE41B9DDF2300521845 /* libsqlite3.tbd */,
+				17C13CE21B9DDF1700521845 /* libz.tbd */,
+				17C13CD41B9DDF0500521845 /* CFNetwork.framework */,
+				17C13CD51B9DDF0500521845 /* CoreGraphics.framework */,
+				17C13CD61B9DDF0500521845 /* CoreLocation.framework */,
+				17C13CD71B9DDF0500521845 /* QuartzCore.framework */,
+				17C13CD81B9DDF0500521845 /* Security.framework */,
+				17C13CD91B9DDF0500521845 /* StoreKit.framework */,
+				17C13CDA1B9DDF0500521845 /* SystemConfiguration.framework */,
+				17C13CD21B9DDEB900521845 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17C13CEC1B9DF90300521845 /* Activity View */ = {
+			isa = PBXGroup;
+			children = (
+				17C13CE61B9DF5E800521845 /* GRActivityTableViewController.h */,
+				17C13CE71B9DF5E800521845 /* GRActivityTableViewController.m */,
+				17C13CED1B9DF92700521845 /* GRActivityTableViewCell.h */,
+				17C13CEE1B9DF92700521845 /* GRActivityTableViewCell.m */,
+			);
+			name = "Activity View";
+			sourceTree = "<group>";
+		};
+		17C8E7F01B9B86630008A072 = {
+			isa = PBXGroup;
+			children = (
+				17C8E7FB1B9B86630008A072 /* Grocr */,
+				17C8E8181B9B86630008A072 /* GrocrTests */,
+				17C8E8231B9B86630008A072 /* GrocrUITests */,
+				17C8E7FA1B9B86630008A072 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17C8E7FA1B9B86630008A072 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17C8E7F91B9B86630008A072 /* Grocr.app */,
+				17C8E8151B9B86630008A072 /* GrocrTests.xctest */,
+				17C8E8201B9B86630008A072 /* GrocrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17C8E7FB1B9B86630008A072 /* Grocr */ = {
+			isa = PBXGroup;
+			children = (
+				17C8E7FF1B9B86630008A072 /* AppDelegate.h */,
+				17C8E8001B9B86630008A072 /* AppDelegate.m */,
+				17B9B1521CD087250020A5EF /* Home View */,
+				17C13CEC1B9DF90300521845 /* Activity View */,
+				1709D6A61CCDBEC100EDA55D /* Tab 3 */,
+				1709D6AE1CCF1AB400EDA55D /* Grocr Kit */,
+				17C8E8081B9B86630008A072 /* Main.storyboard */,
+				17C8E80B1B9B86630008A072 /* Assets.xcassets */,
+				17C13CC31B9DDE8F00521845 /* Frameworks */,
+				17C8E7FC1B9B86630008A072 /* Supporting Files */,
+			);
+			path = Grocr;
+			sourceTree = "<group>";
+		};
+		17C8E7FC1B9B86630008A072 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17AE217B1CCD770500E3B196 /* EmptyDataSet */,
+				17C8E80D1B9B86630008A072 /* LaunchScreen.storyboard */,
+				17C8E8101B9B86630008A072 /* Info.plist */,
+				17C8E7FD1B9B86630008A072 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17C8E8181B9B86630008A072 /* GrocrTests */ = {
+			isa = PBXGroup;
+			children = (
+				17C8E8191B9B86630008A072 /* GrocrTests.m */,
+				17C8E81B1B9B86630008A072 /* Info.plist */,
+			);
+			path = GrocrTests;
+			sourceTree = "<group>";
+		};
+		17C8E8231B9B86630008A072 /* GrocrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17C8E8241B9B86630008A072 /* GrocrUITests.m */,
+				17C8E8261B9B86630008A072 /* Info.plist */,
+			);
+			path = GrocrUITests;
+			sourceTree = "<group>";
+		};
+		17F2664B1CD001F200D2F049 /* User View */ = {
+			isa = PBXGroup;
+			children = (
+				17F2664C1CD0028C00D2F049 /* GRUserTableViewController.h */,
+				17F2664D1CD0028C00D2F049 /* GRUserTableViewController.m */,
+				17F266481CD0001900D2F049 /* GRUserTableViewCell.h */,
+				17F266491CD0001900D2F049 /* GRUserTableViewCell.m */,
+				17F266461CCFE1FB00D2F049 /* GRUserTableViewCell.xib */,
+			);
+			name = "User View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17C8E7F81B9B86630008A072 /* Grocr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C8E8291B9B86630008A072 /* Build configuration list for PBXNativeTarget "Grocr" */;
+			buildPhases = (
+				17C8E7F51B9B86630008A072 /* Sources */,
+				17C8E7F61B9B86630008A072 /* Frameworks */,
+				17C8E7F71B9B86630008A072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Grocr;
+			productName = Grocr;
+			productReference = 17C8E7F91B9B86630008A072 /* Grocr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17C8E8141B9B86630008A072 /* GrocrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C8E82C1B9B86630008A072 /* Build configuration list for PBXNativeTarget "GrocrTests" */;
+			buildPhases = (
+				17C8E8111B9B86630008A072 /* Sources */,
+				17C8E8121B9B86630008A072 /* Frameworks */,
+				17C8E8131B9B86630008A072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17C8E8171B9B86630008A072 /* PBXTargetDependency */,
+			);
+			name = GrocrTests;
+			productName = GrocrTests;
+			productReference = 17C8E8151B9B86630008A072 /* GrocrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17C8E81F1B9B86630008A072 /* GrocrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C8E82F1B9B86630008A072 /* Build configuration list for PBXNativeTarget "GrocrUITests" */;
+			buildPhases = (
+				17C8E81C1B9B86630008A072 /* Sources */,
+				17C8E81D1B9B86630008A072 /* Frameworks */,
+				17C8E81E1B9B86630008A072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17C8E8221B9B86630008A072 /* PBXTargetDependency */,
+			);
+			name = GrocrUITests;
+			productName = GrocrUITests;
+			productReference = 17C8E8201B9B86630008A072 /* GrocrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17C8E7F11B9B86630008A072 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Nick Porter";
+				TargetAttributes = {
+					17C8E7F81B9B86630008A072 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					17C8E8141B9B86630008A072 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 17C8E7F81B9B86630008A072;
+					};
+					17C8E81F1B9B86630008A072 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 17C8E7F81B9B86630008A072;
+					};
+				};
+			};
+			buildConfigurationList = 17C8E7F41B9B86630008A072 /* Build configuration list for PBXProject "Grocr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17C8E7F01B9B86630008A072;
+			productRefGroup = 17C8E7FA1B9B86630008A072 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17C8E7F81B9B86630008A072 /* Grocr */,
+				17C8E8141B9B86630008A072 /* GrocrTests */,
+				17C8E81F1B9B86630008A072 /* GrocrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17C8E7F71B9B86630008A072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C8E80F1B9B86630008A072 /* LaunchScreen.storyboard in Resources */,
+				17C8E80C1B9B86630008A072 /* Assets.xcassets in Resources */,
+				17F266501CD01EA400D2F049 /* GRSettingsTableViewCell2.xib in Resources */,
+				17C8E80A1B9B86630008A072 /* Main.storyboard in Resources */,
+				17F266471CCFE1FB00D2F049 /* GRUserTableViewCell.xib in Resources */,
+				174AB1B71CDBB7FC006C47E3 /* GRSettingsTableViewCell1.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C8E8131B9B86630008A072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C8E81E1B9B86630008A072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17C8E7F51B9B86630008A072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B9B14F1CD04DF80020A5EF /* GRSettings2TableViewCell.m in Sources */,
+				17C13CEB1B9DF79900521845 /* GRListTableViewController.m in Sources */,
+				17F2664E1CD0028C00D2F049 /* GRUserTableViewController.m in Sources */,
+				17B9B14C1CD04D9A0020A5EF /* GRSettingsTableViewController.m in Sources */,
+				1709D6A91CCDBEDF00EDA55D /* GRProViewController.m in Sources */,
+				174AB1BD1CDBBD7E006C47E3 /* GRSettings1TableViewCell.m in Sources */,
+				17C13CEF1B9DF92700521845 /* GRActivityTableViewCell.m in Sources */,
+				17C8E8011B9B86630008A072 /* AppDelegate.m in Sources */,
+				17C8E7FE1B9B86630008A072 /* main.m in Sources */,
+				17F2664A1CD0001900D2F049 /* GRUserTableViewCell.m in Sources */,
+				1709D6AC1CCDBFBE00EDA55D /* GRAppearance.m in Sources */,
+				17C13CE81B9DF5E800521845 /* GRActivityTableViewController.m in Sources */,
+				17AE217A1CCD76FF00E3B196 /* UIScrollView+EmptyDataSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C8E8111B9B86630008A072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C8E81A1B9B86630008A072 /* GrocrTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C8E81C1B9B86630008A072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C8E8251B9B86630008A072 /* GrocrUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17C8E8171B9B86630008A072 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17C8E7F81B9B86630008A072 /* Grocr */;
+			targetProxy = 17C8E8161B9B86630008A072 /* PBXContainerItemProxy */;
+		};
+		17C8E8221B9B86630008A072 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17C8E7F81B9B86630008A072 /* Grocr */;
+			targetProxy = 17C8E8211B9B86630008A072 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17C8E8081B9B86630008A072 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17C8E8091B9B86630008A072 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17C8E80D1B9B86630008A072 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17C8E80E1B9B86630008A072 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17C8E8271B9B86630008A072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17C8E8281B9B86630008A072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17C8E82A1B9B86630008A072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Grocr",
+				);
+				INFOPLIST_FILE = Grocr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.worldofnick.Grocr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		17C8E82B1B9B86630008A072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Grocr",
+				);
+				INFOPLIST_FILE = Grocr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.worldofnick.Grocr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		17C8E82D1B9B86630008A072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GrocrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.worldofnick.GrocrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grocr.app/Grocr";
+			};
+			name = Debug;
+		};
+		17C8E82E1B9B86630008A072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GrocrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.worldofnick.GrocrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grocr.app/Grocr";
+			};
+			name = Release;
+		};
+		17C8E8301B9B86630008A072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GrocrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.worldofnick.GrocrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Grocr;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		17C8E8311B9B86630008A072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GrocrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.worldofnick.GrocrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Grocr;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17C8E7F41B9B86630008A072 /* Build configuration list for PBXProject "Grocr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C8E8271B9B86630008A072 /* Debug */,
+				17C8E8281B9B86630008A072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17C8E8291B9B86630008A072 /* Build configuration list for PBXNativeTarget "Grocr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C8E82A1B9B86630008A072 /* Debug */,
+				17C8E82B1B9B86630008A072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17C8E82C1B9B86630008A072 /* Build configuration list for PBXNativeTarget "GrocrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C8E82D1B9B86630008A072 /* Debug */,
+				17C8E82E1B9B86630008A072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17C8E82F1B9B86630008A072 /* Build configuration list for PBXNativeTarget "GrocrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C8E8301B9B86630008A072 /* Debug */,
+				17C8E8311B9B86630008A072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17C8E7F11B9B86630008A072 /* Project object */;
+}

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="settings1" rowHeight="300" id="3RP-c5-w4W" customClass="GRSettings1TableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3RP-c5-w4W" id="vhY-T0-ZuZ">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nick" translatesAutoresizingMaskIntoConstraints="NO" id="obc-4E-lzo">
+                        <rect key="frame" x="217" y="28" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="Ioi-sR-v9H"/>
+                            <constraint firstAttribute="width" constant="80" id="Sbd-tQ-XK6"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uuf-wp-qgF">
+                        <rect key="frame" x="14" y="25" width="186" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="yNM-Ru-Q0b"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                        <color key="textColor" red="0.64313725490196072" green="0.68627450980392157" blue="0.70196078431372544" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Full Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x7M-16-qNk">
+                        <rect key="frame" x="14" y="86" width="186" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="mzZ-e8-Kb8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                        <color key="textColor" red="0.64313725489999995" green="0.68627450980000004" blue="0.70196078429999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xqh-6n-LoG">
+                        <rect key="frame" x="14" y="152" width="186" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="2RS-KK-1ht"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                        <color key="textColor" red="0.64313725489999995" green="0.68627450980000004" blue="0.70196078429999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bq2-ih-Nbe">
+                        <rect key="frame" x="14" y="216" width="186" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="usi-I2-FFN"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                        <color key="textColor" red="0.64313725489999995" green="0.68627450980000004" blue="0.70196078429999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="UofU" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Jxw-Sv-iA7">
+                        <rect key="frame" x="14" y="172" width="298" height="30"/>
+                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <textField opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="porternick@icloud.com" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Zvw-hi-J2l">
+                        <rect key="frame" x="14" y="234" width="298" height="30"/>
+                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="nick_porter" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="XPS-r3-XnO">
+                        <rect key="frame" x="14" y="43" width="186" height="30"/>
+                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Nick Porter" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="VVd-Tp-1mA">
+                        <rect key="frame" x="14" y="104" width="186" height="30"/>
+                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="obc-4E-lzo" firstAttribute="top" secondItem="vhY-T0-ZuZ" secondAttribute="topMargin" constant="20" id="1cI-oI-1sM"/>
+                    <constraint firstItem="Jxw-Sv-iA7" firstAttribute="top" secondItem="xqh-6n-LoG" secondAttribute="bottom" id="99G-0G-bq1"/>
+                    <constraint firstItem="bq2-ih-Nbe" firstAttribute="leading" secondItem="Zvw-hi-J2l" secondAttribute="leading" id="EcW-Iv-Ztc"/>
+                    <constraint firstItem="VVd-Tp-1mA" firstAttribute="top" secondItem="XPS-r3-XnO" secondAttribute="bottom" constant="31" id="Efw-Ae-enk"/>
+                    <constraint firstItem="obc-4E-lzo" firstAttribute="trailing" secondItem="vhY-T0-ZuZ" secondAttribute="trailingMargin" constant="-15" id="FP2-ud-Un8"/>
+                    <constraint firstItem="uuf-wp-qgF" firstAttribute="leading" secondItem="vhY-T0-ZuZ" secondAttribute="leadingMargin" constant="6" id="HGW-v4-A1n"/>
+                    <constraint firstItem="obc-4E-lzo" firstAttribute="leading" secondItem="uuf-wp-qgF" secondAttribute="trailing" constant="17" id="HH8-V3-AVE"/>
+                    <constraint firstItem="Jxw-Sv-iA7" firstAttribute="trailing" secondItem="vhY-T0-ZuZ" secondAttribute="trailingMargin" id="IEl-2E-5AR"/>
+                    <constraint firstItem="VVd-Tp-1mA" firstAttribute="trailing" secondItem="xqh-6n-LoG" secondAttribute="trailing" id="KjX-zT-5JY"/>
+                    <constraint firstItem="Jxw-Sv-iA7" firstAttribute="trailing" secondItem="Zvw-hi-J2l" secondAttribute="trailing" id="L3z-Xa-azW"/>
+                    <constraint firstItem="uuf-wp-qgF" firstAttribute="trailing" secondItem="XPS-r3-XnO" secondAttribute="trailing" id="NB6-gx-AoX"/>
+                    <constraint firstItem="x7M-16-qNk" firstAttribute="top" secondItem="XPS-r3-XnO" secondAttribute="bottom" constant="13" id="NrK-c3-7xQ"/>
+                    <constraint firstItem="XPS-r3-XnO" firstAttribute="top" secondItem="vhY-T0-ZuZ" secondAttribute="topMargin" constant="35" id="Pe2-Eg-YoU"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="bq2-ih-Nbe" secondAttribute="bottom" constant="55.5" id="SPi-D2-mmp"/>
+                    <constraint firstItem="xqh-6n-LoG" firstAttribute="top" secondItem="x7M-16-qNk" secondAttribute="bottom" constant="46" id="Saa-ab-kaW"/>
+                    <constraint firstItem="x7M-16-qNk" firstAttribute="leading" secondItem="VVd-Tp-1mA" secondAttribute="leading" id="bhx-aK-E28"/>
+                    <constraint firstItem="Zvw-hi-J2l" firstAttribute="top" secondItem="Jxw-Sv-iA7" secondAttribute="bottom" constant="32" id="cTW-JF-ydZ"/>
+                    <constraint firstItem="uuf-wp-qgF" firstAttribute="top" secondItem="vhY-T0-ZuZ" secondAttribute="topMargin" constant="17" id="duI-7f-b6K"/>
+                    <constraint firstItem="xqh-6n-LoG" firstAttribute="trailing" secondItem="bq2-ih-Nbe" secondAttribute="trailing" id="eIq-YR-RSY"/>
+                    <constraint firstItem="x7M-16-qNk" firstAttribute="trailing" secondItem="VVd-Tp-1mA" secondAttribute="trailing" id="gyU-fZ-CfC"/>
+                    <constraint firstItem="xqh-6n-LoG" firstAttribute="top" secondItem="VVd-Tp-1mA" secondAttribute="bottom" constant="18" id="htO-xj-8e3"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Zvw-hi-J2l" secondAttribute="bottom" constant="27.5" id="iiI-m3-V8B"/>
+                    <constraint firstItem="XPS-r3-XnO" firstAttribute="leading" secondItem="x7M-16-qNk" secondAttribute="leading" id="kMJ-Iv-MbS"/>
+                    <constraint firstItem="XPS-r3-XnO" firstAttribute="trailing" secondItem="x7M-16-qNk" secondAttribute="trailing" id="kXF-Gg-cSc"/>
+                    <constraint firstItem="bq2-ih-Nbe" firstAttribute="top" secondItem="Jxw-Sv-iA7" secondAttribute="bottom" constant="14" id="nVY-4s-FgB"/>
+                    <constraint firstItem="uuf-wp-qgF" firstAttribute="leading" secondItem="XPS-r3-XnO" secondAttribute="leading" id="o81-5t-SB8"/>
+                    <constraint firstItem="xqh-6n-LoG" firstAttribute="leading" secondItem="Jxw-Sv-iA7" secondAttribute="leading" id="psb-Ut-Oco"/>
+                    <constraint firstItem="Jxw-Sv-iA7" firstAttribute="leading" secondItem="bq2-ih-Nbe" secondAttribute="leading" id="swz-ix-c8v"/>
+                    <constraint firstItem="VVd-Tp-1mA" firstAttribute="leading" secondItem="xqh-6n-LoG" secondAttribute="leading" id="tbH-DO-gvG"/>
+                    <constraint firstItem="x7M-16-qNk" firstAttribute="top" secondItem="uuf-wp-qgF" secondAttribute="bottom" constant="41" id="vTg-XN-jD8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="emailTextField" destination="Zvw-hi-J2l" id="z8G-fc-TwU"/>
+                <outlet property="locationTextField" destination="Jxw-Sv-iA7" id="KGe-6P-Ihm"/>
+                <outlet property="nameTextField" destination="VVd-Tp-1mA" id="sHL-nm-Xju"/>
+                <outlet property="userImageView" destination="obc-4E-lzo" id="kRl-f3-17g"/>
+                <outlet property="userNameTextField" destination="XPS-r3-XnO" id="xDU-4M-5Ky"/>
+            </connections>
+            <point key="canvasLocation" x="600" y="407"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="nick" width="200" height="200"/>
+    </resources>
+</document>
