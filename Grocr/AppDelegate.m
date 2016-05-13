@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <Parse/Parse.h>
 #import "GRAppearance.h"
 
 @interface AppDelegate ()
@@ -18,6 +19,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // Initialize Parse.
+    [Parse enableLocalDatastore];
+    
+    // Initialize Parse.
+    [Parse setApplicationId:@"gfw7o6tEzLMIocSsE1kgRJYoiX3gk8mFWHpMr6RE"
+                  clientKey:@"ntQkzjZnbbpKAqejcjvI8QzfwVv39ycJdebL8eau"];
     
     [[UINavigationBar appearance] setTintColor:[GRAppearance grocrPrimaryColor]];
     

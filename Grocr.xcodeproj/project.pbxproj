@@ -9,8 +9,15 @@
 /* Begin PBXBuildFile section */
 		1709D6A91CCDBEDF00EDA55D /* GRProViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1709D6A81CCDBEDF00EDA55D /* GRProViewController.m */; };
 		1709D6AC1CCDBFBE00EDA55D /* GRAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1709D6AB1CCDBFBE00EDA55D /* GRAppearance.m */; };
+		173B51271CE56B0D00BCF227 /* GRRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = 173B51261CE56B0D00BCF227 /* GRRequests.m */; };
 		174AB1B71CDBB7FC006C47E3 /* GRSettingsTableViewCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174AB1B61CDBB7FC006C47E3 /* GRSettingsTableViewCell1.xib */; };
 		174AB1BD1CDBBD7E006C47E3 /* GRSettings1TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 174AB1BC1CDBBD7E006C47E3 /* GRSettings1TableViewCell.m */; };
+		17757B561CE3BB25000E8BFF /* GRSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17757B551CE3BB25000E8BFF /* GRSignUpViewController.m */; };
+		17757B5A1CE3CF1B000E8BFF /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17757B571CE3CF1B000E8BFF /* Bolts.framework */; };
+		17757B5B1CE3CF1B000E8BFF /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17757B581CE3CF1B000E8BFF /* Parse.framework */; };
+		17757B5C1CE3CF1B000E8BFF /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17757B591CE3CF1B000E8BFF /* ParseUI.framework */; };
+		17757B5E1CE3CF92000E8BFF /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17757B5D1CE3CF92000E8BFF /* Accounts.framework */; };
+		17757B601CE3CF97000E8BFF /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17757B5F1CE3CF97000E8BFF /* Social.framework */; };
 		17AE217A1CCD76FF00E3B196 /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AE21791CCD76FF00E3B196 /* UIScrollView+EmptyDataSet.m */; };
 		17B9B14C1CD04D9A0020A5EF /* GRSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B9B14B1CD04D9A0020A5EF /* GRSettingsTableViewController.m */; };
 		17B9B14F1CD04DF80020A5EF /* GRSettings2TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B9B14E1CD04DF80020A5EF /* GRSettings2TableViewCell.m */; };
@@ -62,9 +69,18 @@
 		1709D6A81CCDBEDF00EDA55D /* GRProViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRProViewController.m; sourceTree = "<group>"; };
 		1709D6AA1CCDBFBE00EDA55D /* GRAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRAppearance.h; sourceTree = "<group>"; };
 		1709D6AB1CCDBFBE00EDA55D /* GRAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRAppearance.m; sourceTree = "<group>"; };
+		173B51251CE56B0D00BCF227 /* GRRequests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRRequests.h; sourceTree = "<group>"; };
+		173B51261CE56B0D00BCF227 /* GRRequests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRRequests.m; sourceTree = "<group>"; };
 		174AB1B61CDBB7FC006C47E3 /* GRSettingsTableViewCell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GRSettingsTableViewCell1.xib; sourceTree = "<group>"; };
 		174AB1BB1CDBBD7E006C47E3 /* GRSettings1TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRSettings1TableViewCell.h; path = ../GRSettings1TableViewCell.h; sourceTree = "<group>"; };
 		174AB1BC1CDBBD7E006C47E3 /* GRSettings1TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRSettings1TableViewCell.m; path = ../GRSettings1TableViewCell.m; sourceTree = "<group>"; };
+		17757B541CE3BB25000E8BFF /* GRSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRSignUpViewController.h; sourceTree = "<group>"; };
+		17757B551CE3BB25000E8BFF /* GRSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRSignUpViewController.m; sourceTree = "<group>"; };
+		17757B571CE3CF1B000E8BFF /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		17757B581CE3CF1B000E8BFF /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		17757B591CE3CF1B000E8BFF /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		17757B5D1CE3CF92000E8BFF /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		17757B5F1CE3CF97000E8BFF /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		17AE21781CCD76FF00E3B196 /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
 		17AE21791CCD76FF00E3B196 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
 		17B9B14A1CD04D9A0020A5EF /* GRSettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRSettingsTableViewController.h; sourceTree = "<group>"; };
@@ -114,16 +130,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17757B601CE3CF97000E8BFF /* Social.framework in Frameworks */,
+				17757B5E1CE3CF92000E8BFF /* Accounts.framework in Frameworks */,
 				17C13CE51B9DDF2300521845 /* libsqlite3.tbd in Frameworks */,
 				17C13CE31B9DDF1700521845 /* libz.tbd in Frameworks */,
-				17C13CDB1B9DDF0500521845 /* CFNetwork.framework in Frameworks */,
-				17C13CDC1B9DDF0500521845 /* CoreGraphics.framework in Frameworks */,
-				17C13CDD1B9DDF0500521845 /* CoreLocation.framework in Frameworks */,
-				17C13CDE1B9DDF0500521845 /* QuartzCore.framework in Frameworks */,
-				17C13CDF1B9DDF0500521845 /* Security.framework in Frameworks */,
-				17C13CE01B9DDF0500521845 /* StoreKit.framework in Frameworks */,
 				17C13CE11B9DDF0500521845 /* SystemConfiguration.framework in Frameworks */,
+				17C13CE01B9DDF0500521845 /* StoreKit.framework in Frameworks */,
+				17C13CDF1B9DDF0500521845 /* Security.framework in Frameworks */,
+				17C13CDE1B9DDF0500521845 /* QuartzCore.framework in Frameworks */,
+				17C13CDD1B9DDF0500521845 /* CoreLocation.framework in Frameworks */,
+				17C13CDC1B9DDF0500521845 /* CoreGraphics.framework in Frameworks */,
+				17C13CDB1B9DDF0500521845 /* CFNetwork.framework in Frameworks */,
 				17C13CD31B9DDEB900521845 /* AudioToolbox.framework in Frameworks */,
+				17757B5A1CE3CF1B000E8BFF /* Bolts.framework in Frameworks */,
+				17757B5B1CE3CF1B000E8BFF /* Parse.framework in Frameworks */,
+				17757B5C1CE3CF1B000E8BFF /* ParseUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +245,8 @@
 		17C13CC31B9DDE8F00521845 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				17757B5F1CE3CF97000E8BFF /* Social.framework */,
+				17757B5D1CE3CF92000E8BFF /* Accounts.framework */,
 				17C13CE41B9DDF2300521845 /* libsqlite3.tbd */,
 				17C13CE21B9DDF1700521845 /* libz.tbd */,
 				17C13CD41B9DDF0500521845 /* CFNetwork.framework */,
@@ -274,6 +297,10 @@
 			children = (
 				17C8E7FF1B9B86630008A072 /* AppDelegate.h */,
 				17C8E8001B9B86630008A072 /* AppDelegate.m */,
+				17757B541CE3BB25000E8BFF /* GRSignUpViewController.h */,
+				17757B551CE3BB25000E8BFF /* GRSignUpViewController.m */,
+				173B51251CE56B0D00BCF227 /* GRRequests.h */,
+				173B51261CE56B0D00BCF227 /* GRRequests.m */,
 				17B9B1521CD087250020A5EF /* Home View */,
 				17C13CEC1B9DF90300521845 /* Activity View */,
 				1709D6A61CCDBEC100EDA55D /* Tab 3 */,
@@ -289,6 +316,9 @@
 		17C8E7FC1B9B86630008A072 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				17757B571CE3CF1B000E8BFF /* Bolts.framework */,
+				17757B581CE3CF1B000E8BFF /* Parse.framework */,
+				17757B591CE3CF1B000E8BFF /* ParseUI.framework */,
 				17AE217B1CCD770500E3B196 /* EmptyDataSet */,
 				17C8E80D1B9B86630008A072 /* LaunchScreen.storyboard */,
 				17C8E8101B9B86630008A072 /* Info.plist */,
@@ -460,12 +490,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17757B561CE3BB25000E8BFF /* GRSignUpViewController.m in Sources */,
 				17B9B14F1CD04DF80020A5EF /* GRSettings2TableViewCell.m in Sources */,
 				17C13CEB1B9DF79900521845 /* GRListTableViewController.m in Sources */,
 				17F2664E1CD0028C00D2F049 /* GRUserTableViewController.m in Sources */,
 				17B9B14C1CD04D9A0020A5EF /* GRSettingsTableViewController.m in Sources */,
 				1709D6A91CCDBEDF00EDA55D /* GRProViewController.m in Sources */,
 				174AB1BD1CDBBD7E006C47E3 /* GRSettings1TableViewCell.m in Sources */,
+				173B51271CE56B0D00BCF227 /* GRRequests.m in Sources */,
 				17C13CEF1B9DF92700521845 /* GRActivityTableViewCell.m in Sources */,
 				17C8E8011B9B86630008A072 /* AppDelegate.m in Sources */,
 				17C8E7FE1B9B86630008A072 /* main.m in Sources */,
